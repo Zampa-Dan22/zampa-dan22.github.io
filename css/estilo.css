@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:670px){
+    
+    div#izqabajo{
+    width: 100%;
+    }
+    div#derecha{
+        display: none;
+    }
+}
+
+.fa-solid {
+    font: size 70px;
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:  rgb(0, 255, 255);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding:10px 20px;
+    background-color: aliceblue;
+}
+
+body{
+    background-color: rgba(206, 218, 216, 0.959);
+}
+
+li{
+    padding: 5px;
+    font-family: 'Merriweather', serif;
+}
+
+section{
+    height: 90vh;
+}
+
+section#persona{
+    margin:auto;
+    margin-top:50px;
+    width: 960px;
+    height:800px;
+}
+
+section#Persona h3{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+div#contenido ul#izqder{ 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+div#izqabajo{
+    float: left;
+    width: 250px;
+    background-color: green;
+    padding-left: 35px;
+}
+
+.cvfoto{
+    text-align: center;
+}
+
+.cvfoto img{   
+    width: 100%;
+    height: auto;
+}
+
+div.contacto ul{
+    list-style: none;
+}
+
+div#derecha{
+    float: right;
+    width: 630px;
+    padding-left: 35px;
+    padding-right: 20px;
+    background-color: rgb(255, 166, 0);
+}
+
+div#derecha h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+div#derecha h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+div#derecha h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+div#encabezado{ 
+    padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div#descripcion p{
+    text-align:justify;
+}
+
+div#Experiencialaboral {
+    margin-top:20px ;    
+    margin-bottom:20px ;
+}
+
+div#Experiencialaboral li{
+    text-align:justify;
+}
+
+ul#referentes {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+ul#referentes p{
+    margin-left:20px;
+}
+
+section#Proyectos h2{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-detail{
+    border: 5px solid rgb(67, 186, 207);
+    border-radius: 15px;
+    width: 300px;    
+    margin: 20px;
+}
+.project-detail h3{
+    padding-bottom: 2%;
+    text-align: center;
+    text-decoration:underline;
+}
+.project-detail p{
+    text-align:justify;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+.project-detail img{
+width: 100%;
+height: 40%;
+}
+
